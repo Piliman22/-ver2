@@ -1,0 +1,44 @@
+header {
+    background-color: rgb(255, 207, 111);
+    color: rgb(73, 62, 15);
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 20px;
+}
+
+.center {
+    text-align: center;
+    font-family:"MSゴシック"
+}
+body {
+    font-family:"MSゴシック"
+}
+
+.color1 {
+    color:rgb(111, 72, 17)
+}
+
+.color2 {
+    color:red
+}
+
+
+.wrapper{
+    min-height: 100vh;
+    position: relative;/*←相対位置*/
+    padding-bottom: 120px;/*←footerの高さ*/
+    box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
+}
+
+footer p {
+    background-color: rgb(200, 200, 200);
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 100vh;
+
+}
